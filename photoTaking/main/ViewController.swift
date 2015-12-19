@@ -47,12 +47,5 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    @IBAction func showAlert(){
-        let alert = UIAlertController(title: "Hello world", message: "Welcome to app!", preferredStyle: .Alert)
-        let action = UIAlertAction(title: "Awesome", style: .Default, handler: nil)
-        alert.addAction(action)
-        presentViewController(alert, animated: true, completion: nil)
-    }
 }
 

@@ -22,7 +22,6 @@
                                 <state key="normal" title="Library"/>
                                 <connections>
                                     <action selector="choosePhotoFromLibrary:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O5f-if-ASy"/>
-                                    <action selector="showAlert" destination="BYZ-38-t0r" eventType="touchUpInside" id="T6w-AV-mG5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3c5-p7-QMp">
