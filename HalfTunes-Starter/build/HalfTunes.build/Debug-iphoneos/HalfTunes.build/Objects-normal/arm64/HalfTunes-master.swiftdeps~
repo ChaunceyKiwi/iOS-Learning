@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "9c685e39ad87e95f18b0a9ae3765aa79"
+build_time: [552676777, 239645000]
+inputs:
+  "/Users/Chauncey/Downloads/HalfTunes Xcode8.3.2/HalfTunes-Starter/HalfTunes/SearchViewController.swift": [550398943, 0]
+  "/Users/Chauncey/Downloads/HalfTunes Xcode8.3.2/HalfTunes-Starter/HalfTunes/DownloadService.swift": [547002472, 0]
+  "/Users/Chauncey/Downloads/HalfTunes Xcode8.3.2/HalfTunes-Starter/HalfTunes/AppDelegate.swift": [551232034, 0]
+  "/Users/Chauncey/Downloads/HalfTunes Xcode8.3.2/HalfTunes-Starter/HalfTunes/StoryboardSupport.swift": [550456067, 0]
+  "/Users/Chauncey/Downloads/HalfTunes Xcode8.3.2/HalfTunes-Starter/HalfTunes/TrackCell.swift": [547083089, 0]
+  "/Users/Chauncey/Downloads/HalfTunes Xcode8.3.2/HalfTunes-Starter/HalfTunes/QueryService.swift": !dirty [552676661, 0]
+  "/Users/Chauncey/Downloads/HalfTunes Xcode8.3.2/HalfTunes-Starter/HalfTunes/Track.swift": [547000209, 0]
+  "/Users/Chauncey/Downloads/HalfTunes Xcode8.3.2/HalfTunes-Starter/HalfTunes/SearchVC+SearchBarDelegate.swift": [550398805, 0]

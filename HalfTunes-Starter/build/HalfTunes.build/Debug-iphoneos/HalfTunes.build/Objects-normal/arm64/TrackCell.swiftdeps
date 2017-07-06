@@ -1,0 +1,538 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TrackCellDelegate"
+- "TrackCell"
+provides-nominal:
+- "P9HalfTunes17TrackCellDelegate"
+- "C9HalfTunes9TrackCell"
+provides-member:
+- ["P9HalfTunes17TrackCellDelegate", ""]
+- ["C9HalfTunes9TrackCell", ""]
+provides-dynamic-lookup:
+- "artistLabel"
+- "cancelButton"
+- "cancelTapped"
+- "downloadButton"
+- "downloadTapped"
+- "pauseButton"
+- "pauseOrResumeTapped"
+- "progressLabel"
+- "progressView"
+- "titleLabel"
+depends-top-level:
+- !private "=="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "Track"
+- "TrackCell"
+- "TrackCellDelegate"
+- "UIButton"
+- "UILabel"
+- "UIProgressView"
+- "UITableViewCell"
+- !private "UITableViewCellSelectionStyle"
+depends-member:
+- !private ["Ps9AnyObject", "UITableViewCellSelectionStyle"]
+- !private ["Ps9AnyObject", "artist"]
+- !private ["Ps9AnyObject", "artistLabel"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "downloadButton"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isHidden"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "pauseButton"]
+- !private ["Ps9AnyObject", "selectionStyle"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "titleLabel"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "UITableViewCellSelectionStyle"]
+- !private ["PSo15CALayerDelegate", "artistLabel"]
+- !private ["PSo15CALayerDelegate", "delegate"]
+- !private ["PSo15CALayerDelegate", "downloadButton"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "isHidden"]
+- !private ["PSo15CALayerDelegate", "pauseButton"]
+- !private ["PSo15CALayerDelegate", "selectionStyle"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["PSo15CALayerDelegate", "titleLabel"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["Ps7CVarArg", "UITableViewCellSelectionStyle"]
+- !private ["Ps7CVarArg", "artistLabel"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "downloadButton"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isHidden"]
+- !private ["Ps7CVarArg", "pauseButton"]
+- !private ["Ps7CVarArg", "selectionStyle"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "titleLabel"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "UITableViewCellSelectionStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "artistLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "downloadButton"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isHidden"]
+- !private ["Ps28CustomDebugStringConvertible", "pauseButton"]
+- !private ["Ps28CustomDebugStringConvertible", "selectionStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "titleLabel"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "UITableViewCellSelectionStyle"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "artistLabel"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "downloadButton"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isHidden"]
+- !private ["Ps23CustomStringConvertible", "pauseButton"]
+- !private ["Ps23CustomStringConvertible", "selectionStyle"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "titleLabel"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "UITableViewCellSelectionStyle"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "artistLabel"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "downloadButton"]
+- !private ["Ps9Equatable", "gray"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isHidden"]
+- !private ["Ps9Equatable", "none"]
+- !private ["Ps9Equatable", "pauseButton"]
+- !private ["Ps9Equatable", "selectionStyle"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "titleLabel"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "UITableViewCellSelectionStyle"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "artistLabel"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "downloadButton"]
+- !private ["Ps8Hashable", "gray"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isHidden"]
+- !private ["Ps8Hashable", "none"]
+- !private ["Ps8Hashable", "pauseButton"]
+- !private ["Ps8Hashable", "selectionStyle"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "titleLabel"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "UITableViewCellSelectionStyle"]
+- !private ["PSo8NSCoding", "artistLabel"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "downloadButton"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isHidden"]
+- !private ["PSo8NSCoding", "pauseButton"]
+- !private ["PSo8NSCoding", "selectionStyle"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "titleLabel"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Track"]
+- ["CSo8NSObject", "TrackCellDelegate"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UIProgressView"]
+- !private ["CSo8NSObject", "UITableViewCellSelectionStyle"]
+- ["CSo8NSObject", "artistLabel"]
+- ["CSo8NSObject", "cancelButton"]
+- ["CSo8NSObject", "cancelTapped"]
+- ["CSo8NSObject", "configure"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "downloadButton"]
+- ["CSo8NSObject", "downloadTapped"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isHidden"]
+- ["CSo8NSObject", "pauseButton"]
+- ["CSo8NSObject", "pauseOrResumeTapped"]
+- ["CSo8NSObject", "progressLabel"]
+- ["CSo8NSObject", "progressView"]
+- !private ["CSo8NSObject", "selectionStyle"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "titleLabel"]
+- !private ["PSo16NSObjectProtocol", "UITableViewCellSelectionStyle"]
+- !private ["PSo16NSObjectProtocol", "artistLabel"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "downloadButton"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isHidden"]
+- !private ["PSo16NSObjectProtocol", "pauseButton"]
+- !private ["PSo16NSObjectProtocol", "selectionStyle"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "titleLabel"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps16RawRepresentable", "gray"]
+- !private ["Ps16RawRepresentable", "none"]
+- !private ["P9HalfTunes22StoryboardIdentifiable", "UITableViewCellSelectionStyle"]
+- !private ["P9HalfTunes22StoryboardIdentifiable", "artistLabel"]
+- !private ["P9HalfTunes22StoryboardIdentifiable", "delegate"]
+- !private ["P9HalfTunes22StoryboardIdentifiable", "downloadButton"]
+- !private ["P9HalfTunes22StoryboardIdentifiable", "init"]
+- !private ["P9HalfTunes22StoryboardIdentifiable", "pauseButton"]
+- !private ["P9HalfTunes22StoryboardIdentifiable", "selectionStyle"]
+- !private ["P9HalfTunes22StoryboardIdentifiable", "titleLabel"]
+- ["P9HalfTunes22StoryboardIdentifiable", ""]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["C9HalfTunes5Track", "artist"]
+- !private ["C9HalfTunes5Track", "name"]
+- ["C9HalfTunes9TrackCell", "AnyObject"]
+- ["C9HalfTunes9TrackCell", "Bool"]
+- ["C9HalfTunes9TrackCell", "Track"]
+- ["C9HalfTunes9TrackCell", "TrackCellDelegate"]
+- ["C9HalfTunes9TrackCell", "UIButton"]
+- ["C9HalfTunes9TrackCell", "UILabel"]
+- ["C9HalfTunes9TrackCell", "UIProgressView"]
+- !private ["C9HalfTunes9TrackCell", "UITableViewCellSelectionStyle"]
+- ["C9HalfTunes9TrackCell", "artistLabel"]
+- ["C9HalfTunes9TrackCell", "cancelButton"]
+- ["C9HalfTunes9TrackCell", "cancelTapped"]
+- ["C9HalfTunes9TrackCell", "configure"]
+- ["C9HalfTunes9TrackCell", "deinit"]
+- ["C9HalfTunes9TrackCell", "delegate"]
+- ["C9HalfTunes9TrackCell", "downloadButton"]
+- ["C9HalfTunes9TrackCell", "downloadTapped"]
+- ["C9HalfTunes9TrackCell", "init"]
+- ["C9HalfTunes9TrackCell", "pauseButton"]
+- ["C9HalfTunes9TrackCell", "pauseOrResumeTapped"]
+- ["C9HalfTunes9TrackCell", "progressLabel"]
+- ["C9HalfTunes9TrackCell", "progressView"]
+- !private ["C9HalfTunes9TrackCell", "selectionStyle"]
+- ["C9HalfTunes9TrackCell", "titleLabel"]
+- ["P9HalfTunes17TrackCellDelegate", "TrackCell"]
+- ["P9HalfTunes17TrackCellDelegate", "cancelTapped"]
+- ["P9HalfTunes17TrackCellDelegate", "downloadTapped"]
+- ["P9HalfTunes17TrackCellDelegate", "pauseTapped"]
+- ["P9HalfTunes17TrackCellDelegate", "resumeTapped"]
+- !private ["PSo29UIAccessibilityIdentification", "UITableViewCellSelectionStyle"]
+- !private ["PSo29UIAccessibilityIdentification", "artistLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
+- !private ["PSo29UIAccessibilityIdentification", "downloadButton"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "isHidden"]
+- !private ["PSo29UIAccessibilityIdentification", "pauseButton"]
+- !private ["PSo29UIAccessibilityIdentification", "selectionStyle"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo29UIAccessibilityIdentification", "titleLabel"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "UITableViewCellSelectionStyle"]
+- !private ["PSo12UIAppearance", "artistLabel"]
+- !private ["PSo12UIAppearance", "delegate"]
+- !private ["PSo12UIAppearance", "downloadButton"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "isHidden"]
+- !private ["PSo12UIAppearance", "pauseButton"]
+- !private ["PSo12UIAppearance", "selectionStyle"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo12UIAppearance", "titleLabel"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "UITableViewCellSelectionStyle"]
+- !private ["PSo21UIAppearanceContainer", "artistLabel"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "downloadButton"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isHidden"]
+- !private ["PSo21UIAppearanceContainer", "pauseButton"]
+- !private ["PSo21UIAppearanceContainer", "selectionStyle"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "titleLabel"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "isHidden"]
+- !private ["CSo8UIButton", "titleLabel"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "isHidden"]
+- !private ["CSo9UIControl", "titleLabel"]
+- !private ["PSo17UICoordinateSpace", "UITableViewCellSelectionStyle"]
+- !private ["PSo17UICoordinateSpace", "artistLabel"]
+- !private ["PSo17UICoordinateSpace", "delegate"]
+- !private ["PSo17UICoordinateSpace", "downloadButton"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "isHidden"]
+- !private ["PSo17UICoordinateSpace", "pauseButton"]
+- !private ["PSo17UICoordinateSpace", "selectionStyle"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo17UICoordinateSpace", "titleLabel"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "UITableViewCellSelectionStyle"]
+- !private ["PSo13UIDynamicItem", "artistLabel"]
+- !private ["PSo13UIDynamicItem", "delegate"]
+- !private ["PSo13UIDynamicItem", "downloadButton"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "isHidden"]
+- !private ["PSo13UIDynamicItem", "pauseButton"]
+- !private ["PSo13UIDynamicItem", "selectionStyle"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo13UIDynamicItem", "titleLabel"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "UITableViewCellSelectionStyle"]
+- !private ["PSo18UIFocusEnvironment", "artistLabel"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "downloadButton"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isHidden"]
+- !private ["PSo18UIFocusEnvironment", "pauseButton"]
+- !private ["PSo18UIFocusEnvironment", "selectionStyle"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "titleLabel"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "UITableViewCellSelectionStyle"]
+- !private ["PSo11UIFocusItem", "artistLabel"]
+- !private ["PSo11UIFocusItem", "delegate"]
+- !private ["PSo11UIFocusItem", "downloadButton"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "isHidden"]
+- !private ["PSo11UIFocusItem", "pauseButton"]
+- !private ["PSo11UIFocusItem", "selectionStyle"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo11UIFocusItem", "titleLabel"]
+- ["PSo11UIFocusItem", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "UITableViewCellSelectionStyle"]
+- !private ["PSo27UIGestureRecognizerDelegate", "artistLabel"]
+- !private ["PSo27UIGestureRecognizerDelegate", "delegate"]
+- !private ["PSo27UIGestureRecognizerDelegate", "downloadButton"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- !private ["PSo27UIGestureRecognizerDelegate", "pauseButton"]
+- !private ["PSo27UIGestureRecognizerDelegate", "selectionStyle"]
+- !private ["PSo27UIGestureRecognizerDelegate", "titleLabel"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "Track"]
+- ["CSo11UIResponder", "TrackCellDelegate"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UIProgressView"]
+- !private ["CSo11UIResponder", "UITableViewCellSelectionStyle"]
+- ["CSo11UIResponder", "artistLabel"]
+- ["CSo11UIResponder", "cancelButton"]
+- ["CSo11UIResponder", "cancelTapped"]
+- ["CSo11UIResponder", "configure"]
+- ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "downloadButton"]
+- ["CSo11UIResponder", "downloadTapped"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isHidden"]
+- ["CSo11UIResponder", "pauseButton"]
+- ["CSo11UIResponder", "pauseOrResumeTapped"]
+- ["CSo11UIResponder", "progressLabel"]
+- ["CSo11UIResponder", "progressView"]
+- !private ["CSo11UIResponder", "selectionStyle"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "titleLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "UITableViewCellSelectionStyle"]
+- !private ["PSo30UIResponderStandardEditActions", "artistLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "downloadButton"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isHidden"]
+- !private ["PSo30UIResponderStandardEditActions", "pauseButton"]
+- !private ["PSo30UIResponderStandardEditActions", "selectionStyle"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "titleLabel"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo15UITableViewCell", "AnyObject"]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "Track"]
+- ["CSo15UITableViewCell", "TrackCellDelegate"]
+- ["CSo15UITableViewCell", "UIButton"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "UIProgressView"]
+- !private ["CSo15UITableViewCell", "UITableViewCellSelectionStyle"]
+- ["CSo15UITableViewCell", "artistLabel"]
+- ["CSo15UITableViewCell", "cancelButton"]
+- ["CSo15UITableViewCell", "cancelTapped"]
+- ["CSo15UITableViewCell", "configure"]
+- ["CSo15UITableViewCell", "delegate"]
+- ["CSo15UITableViewCell", "downloadButton"]
+- ["CSo15UITableViewCell", "downloadTapped"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "pauseButton"]
+- ["CSo15UITableViewCell", "pauseOrResumeTapped"]
+- ["CSo15UITableViewCell", "progressLabel"]
+- ["CSo15UITableViewCell", "progressView"]
+- !private ["CSo15UITableViewCell", "selectionStyle"]
+- ["CSo15UITableViewCell", "titleLabel"]
+- ["CSo15UITableViewCell", ""]
+- !private ["OSC29UITableViewCellSelectionStyle", "gray"]
+- !private ["OSC29UITableViewCellSelectionStyle", "none"]
+- !private ["PSo18UITraitEnvironment", "UITableViewCellSelectionStyle"]
+- !private ["PSo18UITraitEnvironment", "artistLabel"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "downloadButton"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isHidden"]
+- !private ["PSo18UITraitEnvironment", "pauseButton"]
+- !private ["PSo18UITraitEnvironment", "selectionStyle"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "titleLabel"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "AnyObject"]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "Track"]
+- ["CSo6UIView", "TrackCellDelegate"]
+- ["CSo6UIView", "UIButton"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UIProgressView"]
+- !private ["CSo6UIView", "UITableViewCellSelectionStyle"]
+- ["CSo6UIView", "artistLabel"]
+- ["CSo6UIView", "cancelButton"]
+- ["CSo6UIView", "cancelTapped"]
+- ["CSo6UIView", "configure"]
+- ["CSo6UIView", "delegate"]
+- ["CSo6UIView", "downloadButton"]
+- ["CSo6UIView", "downloadTapped"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "isHidden"]
+- ["CSo6UIView", "pauseButton"]
+- ["CSo6UIView", "pauseOrResumeTapped"]
+- ["CSo6UIView", "progressLabel"]
+- ["CSo6UIView", "progressView"]
+- !private ["CSo6UIView", "selectionStyle"]
+- !private ["CSo6UIView", "text"]
+- ["CSo6UIView", "titleLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UITableViewCellSelectionStyle"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "artistLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "delegate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "downloadButton"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isHidden"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "pauseButton"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "selectionStyle"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "titleLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "UITableViewCellSelectionStyle"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "artistLabel"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "downloadButton"]
+- !private ["Ps9_Hashable", "gray"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isHidden"]
+- !private ["Ps9_Hashable", "none"]
+- !private ["Ps9_Hashable", "pauseButton"]
+- !private ["Ps9_Hashable", "selectionStyle"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "titleLabel"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps16RawRepresentable"
+- "P9HalfTunes22StoryboardIdentifiable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "C9HalfTunes5Track"
+- "C9HalfTunes9TrackCell"
+- "P9HalfTunes17TrackCellDelegate"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- !private "OSC29UITableViewCellSelectionStyle"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "b73159335e00d3e8b09e959fb954fcba"
